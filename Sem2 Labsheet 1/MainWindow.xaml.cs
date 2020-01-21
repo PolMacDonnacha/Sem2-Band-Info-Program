@@ -24,5 +24,10 @@ namespace Sem2_Labsheet_1
         {
             InitializeComponent();
         }
+
+        private void Combobox_genre_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

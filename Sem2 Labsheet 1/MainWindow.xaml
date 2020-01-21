@@ -6,7 +6,16 @@
         xmlns:local="clr-namespace:Sem2_Labsheet_1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid x:Name="txtblk_album">
+        <Button x:Name="btn_save" Content="Save" HorizontalAlignment="Left" Margin="565,364,0,0" VerticalAlignment="Top" Width="75"/>
+        <ListBox x:Name="lstbx_albums" HorizontalAlignment="Left" Height="100" Margin="470,220,0,0" VerticalAlignment="Top" Width="170"/>
+        <ListBox x:Name="lstbx_Bands" HorizontalAlignment="Left" Height="245" Margin="128,97,0,0" VerticalAlignment="Top" Width="218"/>
+        <TextBlock HorizontalAlignment="Left" Margin="470,186,0,0" TextWrapping="Wrap" Text="Albums" VerticalAlignment="Top" Height="29" Width="85" FontSize="20"/>
+        <TextBlock x:Name="txtblk_Bands" HorizontalAlignment="Left" Margin="128,18,0,0" TextWrapping="Wrap" Text="Bands" VerticalAlignment="Top" Height="29" Width="85" FontSize="20"/>
+        <Label x:Name="Label_BandInfo" Content="Band Information" HorizontalAlignment="Left" Margin="470,13,0,0" VerticalAlignment="Top" Height="37" Width="170" FontSize="20"/>
+        <TextBox x:Name="Textbx_BandInfo" HorizontalAlignment="Left" Height="77" Margin="470,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="170"/>
+        <ComboBox x:Name="Combobox_genre" HorizontalAlignment="Left" Margin="226,59,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Combobox_genre_SelectionChanged"/>
+        <Label Content="Genre" HorizontalAlignment="Left" Margin="152,55,0,0" VerticalAlignment="Top" Width="50" FontSize="14"/>
+
     </Grid>
 </Window>
